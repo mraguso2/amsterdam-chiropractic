@@ -45,9 +45,6 @@ typings/
 # Notes
 notes.md
 
-# Notes
-*.config.js
-
 # Optional eslint cache
 .eslintcache
 .eslintrc*
