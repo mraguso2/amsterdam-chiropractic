@@ -28,6 +28,8 @@ const Email = styled(ContactItemGroup)`
   display: flex;
   justify-content: center;
   margin: 1.5rem 0 2.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   svg {
     margin-right: 1.25rem;
   }

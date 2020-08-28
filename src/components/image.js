@@ -18,7 +18,8 @@ import { above } from '../utilities/breakpoints';
 const SpineHeroStyled = styled.div`
   /* background: radial-gradient(transparent, white);
   background: radial-gradient(circle, #ffc72714 5%, white); */
-  background: radial-gradient(circle, #ffc72714, white 70%);
+  /* background: radial-gradient(circle, #ffc72714, white 70%); */
+  background: radial-gradient(#fff6dd14, white 72%);
   padding-left: 1rem;
   padding-right: 1rem;
   ${above.sm`

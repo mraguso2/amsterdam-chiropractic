@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
   `);
 
   return (
-    <>
+    <div style={{ overflowX: `hidden` }}>
       <Header siteTitle={data.site.siteMetadata.title} />
       <Navbar />
       <svg
@@ -84,7 +84,7 @@ const Layout = ({ children }) => {
         </div>
         <Contact />
       </div>
-    </>
+    </div>
   );
 };
 

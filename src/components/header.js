@@ -7,7 +7,8 @@ import { above, below } from '../utilities/breakpoints';
 const HeaderStyled = styled.header`
   background: #00533e;
   /* background: linear-gradient(0deg, #00533e, hsl(165, 68%, 26%)); */
-  padding-bottom: 0rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   ${above.base`
     padding-bottom: 1rem;
   `}
@@ -47,7 +48,7 @@ const HeaderStyled = styled.header`
 `;
 
 const SVGStyled = styled.svg`
-  width: 4rem;
+  width: 4.5rem;
   margin: 1rem;
   ${above.base`
     width: 5.8rem;
@@ -55,23 +56,45 @@ const SVGStyled = styled.svg`
   `}
 `;
 
+const MassageStyled = styled.span`
+  display: inline-block;
+  ${above.sm`
+    display: inline;
+    padding-left: 0rem;
+  `}
+  ${above.base`
+    display: inline-block;
+    padding-left: 2rem;
+  `}
+  ${above.md`
+    display: inline;
+    padding-left: 0rem;
+  `}
+`;
+
 const HeaderText = styled.h1`
   font-family: 'Merriweather', serif;
   font-weight: 500;
   font-size: 1.8rem;
-  line-height: 1.2;
+  line-height: 1.3;
   width: 250px;
+  ${above.sm`
+    width: 375px;
+  `}
   ${above.base`
     font-size: 2.4rem;
     line-height: 1.3;
     width: 350px;
   `}
-  ${above.lg`
+  ${above.md`
+    width: 500px;
+  `}
+  /* ${above.lg`
     width: auto;
     span {
       padding-left: 0rem;
     }
-  `}
+  `} */
 `;
 
 const Headerbackground = styled.div`
@@ -119,7 +142,8 @@ const Header = () => (
     <div>
       <HeaderText className="mb-0 tracking-wide">
         <Link className="text-white no-underline" to="/">
-          Amsterdam <span className="pl-4">Chiropractic</span>
+          Amsterdam <span className="pl-4">Chiropractic</span>{' '}
+          <MassageStyled className="pl-8">& Massage</MassageStyled>
         </Link>
       </HeaderText>
     </div>
