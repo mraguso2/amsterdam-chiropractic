@@ -48,10 +48,10 @@ const HeaderStyled = styled.header`
 `;
 
 const SVGStyled = styled.svg`
-  width: 4.5rem;
+  width: 6rem;
   margin: 1rem;
   ${above.base`
-    width: 5.8rem;
+    width: 7rem;
     margin: 1.25rem;
   `}
 `;
@@ -63,10 +63,6 @@ const MassageStyled = styled.span`
     padding-left: 0rem;
   `}
   ${above.base`
-    display: inline-block;
-    padding-left: 2rem;
-  `}
-  ${above.md`
     display: inline;
     padding-left: 0rem;
   `}
@@ -83,18 +79,9 @@ const HeaderText = styled.h1`
   `}
   ${above.base`
     font-size: 2.4rem;
-    line-height: 1.3;
-    width: 350px;
-  `}
-  ${above.md`
+    line-height: 1.4;
     width: 500px;
   `}
-  /* ${above.lg`
-    width: auto;
-    span {
-      padding-left: 0rem;
-    }
-  `} */
 `;
 
 const Headerbackground = styled.div`

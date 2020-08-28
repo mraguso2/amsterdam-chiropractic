@@ -65,7 +65,7 @@ const Image = () => {
     <div className="relative">
       <SpineHeroStyled className="flex flex-col justify-around items-center absolute w-full h-full z-10">
         <h3>We specialize in the treatment and diagnosis of neuromuscular disorders</h3>
-        <h3>Our goal is to prevent pain, relieve pain and improve function</h3>
+        <h3>Our goal is to improve function, relieve and prevent pain</h3>
       </SpineHeroStyled>
       <Img fluid={data.placeholderImage.childImageSharp.fluid} />
     </div>
