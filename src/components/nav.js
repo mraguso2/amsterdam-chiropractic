@@ -12,11 +12,12 @@ const NavStyled = styled.nav`
 
 const showMe = css`
   display: flex;
+  margin-right: 1rem;
 `;
 
 const closeStyle = css`
   background: hsl(165, 100%, 16%);
-  margin-right: 0rem;
+  /* margin-right: 0rem; */
   border-radius: 0px;
   border: 3px solid #007558;
   border-bottom: none;
@@ -37,6 +38,7 @@ const NavItemsStyled = styled.ul`
   ${props => (props.mobileMenu ? navContinerMobile : '')}
   ${above.base`
       display: flex;
+      margin-right: 0rem;
   `}
 `;
 
