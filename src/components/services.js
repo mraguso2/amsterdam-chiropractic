@@ -43,7 +43,7 @@ const EvalItemContainer = styled.ul`
 
 const ServiceTitle = styled.h1`
   color: #00533e;
-  background: linear-gradient(45deg, white, transparent);
+  background: linear-gradient(45deg, white, rgba(255, 255, 255, 0));
   border-radius: 5px;
   padding-left: 0.5rem;
   padding-top: 0.25rem;
@@ -51,11 +51,11 @@ const ServiceTitle = styled.h1`
 `;
 
 const ServiceTitle2 = styled(ServiceTitle)`
-  background: linear-gradient(45deg, transparent, white);
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0), white);
 `;
 
 const ServiceTitle3 = styled(ServiceTitle)`
-  background: linear-gradient(45deg, transparent, white, transparent);
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0), white, rgba(255, 255, 255, 0));
 `;
 
 const ArrowStyled = styled.svg`
@@ -68,7 +68,7 @@ const ArrowStyled = styled.svg`
 
 const MassageTitle = styled.h1`
   color: #00533e;
-  background: linear-gradient(45deg, transparent, #ffffff54, transparent);
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0), #ffffff54, rgba(255, 255, 255, 0));
 `;
 
 const ServiceStyled = styled(SectionStyled)`
