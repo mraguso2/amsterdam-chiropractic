@@ -13,6 +13,7 @@ const ServiceItem = styled.div`
   margin-bottom: 1rem;
   box-shadow: 1px 1px 35px rgba(35, 179, 141, 0.11);
   position: relative;
+  margin-bottom: 2rem;
 `;
 
 const EvalItemContainer = styled.ul`
@@ -118,15 +119,18 @@ const Services = () => (
           <em className="text-center">Cost depends on individual patient</em>
         </p>
         <EvalItemContainer>
-          <li>Apply recommended treatment plan</li>
+          <li>Spinal Adjustments</li>
+          <li>Rehabilitation Exercises</li>
+          <li>Nutrition Education</li>
           <li>
-            Combination of: ultra-sound, hot packs, electric stim, trigger point therapy, myofascial
-            release
+            <span>
+              Ultra sound, hot packs, electric stim, trigger point therapy, myofascial release
+              <sup>*</sup>
+            </span>
           </li>
-          <li>
-            Nutrition advice and rehabilitation exercises are included in chiropractic care plans as
-            needed
-          </li>
+          <p className="mt-4 text-sm relative m-auto">
+            <sup>*</sup>Specific treatements used are based on individual patient needs
+          </p>
         </EvalItemContainer>
       </ServiceItem>
       <ServiceItem>

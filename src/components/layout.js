@@ -9,6 +9,7 @@ import Meetthedoc from './meetthedoc';
 import Services from './services';
 import Contact from './contact';
 import './layout.css';
+import Social from './social';
 
 const SVGstyled = styled.svg``;
 
@@ -83,6 +84,7 @@ const Layout = ({ children }) => {
           </svg>
         </div>
         <Contact />
+        <Social />
       </div>
     </div>
   );
