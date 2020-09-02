@@ -9,6 +9,9 @@ html {
 
 * {
   box-sizing: inherit;
+  /* adding this stinkin margin below bc I can't figure out to remove weird horizontal lines */
+  /* margin-top: -1px;
+  margin-bottom: -1px; */
 }
 
 *:before {

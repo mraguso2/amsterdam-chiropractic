@@ -6,7 +6,7 @@ import SEO from '../components/seo';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Amsterdam Chiro" />
+    <SEO title="Amsterdam Chiropractic & Massage" />
     <div style={{ maxWidth: `550px`, marginBottom: `1.45rem`, margin: 'auto' }}>
       <Image />
     </div>

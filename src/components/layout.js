@@ -26,8 +26,11 @@ const Layout = ({ children }) => {
 
   return (
     <div style={{ overflowX: `hidden` }}>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <Navbar />
+      <div style={{ background: '#00533e' }}>
+        {/* stinking hack to try and remove weird horizontal lines */}
+        <Header siteTitle={data.site.siteMetadata.title} />
+        <Navbar />
+      </div>
       <svg
         style={{ width: '100%', fill: '#00533e' }}
         // viewBox="0 0 510 80"
@@ -58,33 +61,36 @@ const Layout = ({ children }) => {
         </main>
         <Meetthedoc />
         <Services />
-        <div style={{ background: 'linear-gradient(0deg, #40c09d, #18af88)' }}>
-          <svg
-            id=""
-            preserveAspectRatio="xMidYMax meet"
-            className="svg-separator sep4"
-            viewBox="200 90 1200 110"
-            data-height="200"
-          >
-            <polygon
-              className=""
-              style={{ fill: '#2d3748' }}
-              points="886,86 800,172 714,86 -4,86 -4,204 1604,204 1604,86 "
-            />
-            <polygon
-              className=""
-              style={{ opacity: 1, fill: 'rgb(165, 227, 211)' }}
-              points="800,172 886,86 900,86 800,186 700,86 714,86 "
-            />
-            <polygon
-              className=""
-              style={{ opacity: 1, fill: 'rgb(73, 197, 165)' }}
-              points="800,162 876,86 888,86 800,174 712,86 724,86 "
-            />
-          </svg>
+        <div style={{ background: '#2d3748' }}>
+          {/* stinking hack to try and remove weird horizontal lines */}
+          <div style={{ background: 'linear-gradient(0deg, #40c09d, #18af88)' }}>
+            <svg
+              id=""
+              preserveAspectRatio="xMidYMax meet"
+              className="svg-separator sep4"
+              viewBox="200 90 1200 110"
+              data-height="200"
+            >
+              <polygon
+                className=""
+                style={{ fill: '#2d3748' }}
+                points="886,86 800,172 714,86 -4,86 -4,204 1604,204 1604,86 "
+              />
+              <polygon
+                className=""
+                style={{ opacity: 1, fill: 'rgb(165, 227, 211)' }}
+                points="800,172 886,86 900,86 800,186 700,86 714,86 "
+              />
+              <polygon
+                className=""
+                style={{ opacity: 1, fill: 'rgb(73, 197, 165)' }}
+                points="800,162 876,86 888,86 800,174 712,86 724,86 "
+              />
+            </svg>
+          </div>
+          <Contact />
+          <Social />
         </div>
-        <Contact />
-        <Social />
       </div>
     </div>
   );

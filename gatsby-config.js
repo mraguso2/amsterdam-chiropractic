@@ -6,7 +6,7 @@ const fullConfig = resolveConfig(tailwindConfig);
 module.exports = {
   siteMetadata: {
     title: `Amsterdam Chiropractic`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `A chiropractic and massage clinic that specializes in the treatment and diagnosis of neuromuscular disorders. Our goal is to improve function, relieve and prevent pain.`,
     author: `mikeraguso`
   },
   plugins: [
