@@ -6,7 +6,7 @@ import iconCheveron from '../images/icon-cheveron-right-circle.svg';
 import arrow from '../images/Arrow1.svg';
 
 const ServiceItem = styled.div`
-  background: #ffffff54;
+  background: rgba(255, 255, 255, 0.3);
   max-width: 450px;
   padding: 1rem;
   border-radius: 5px;

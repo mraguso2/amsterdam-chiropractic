@@ -37,6 +37,7 @@ const Layout = ({ children }) => {
         viewBox="0 10 510 70"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
       >
         <g clipPath="url(#clip0)">
           <path d="M0 22L510 22V80L0 22Z" fill="#10b38a" />
@@ -63,10 +64,12 @@ const Layout = ({ children }) => {
         <Services />
         <div style={{ background: '#2d3748' }}>
           {/* stinking hack to try and remove weird horizontal lines */}
-          <div style={{ background: 'linear-gradient(0deg, #40c09d, #18af88)' }}>
+          <div
+            style={{ background: 'linear-gradient(0deg, #40c09d, #18af88)', marginBottom: '-1px' }}
+          >
             <svg
               id=""
-              preserveAspectRatio="xMidYMax meet"
+              preserveAspectRatio="none"
               className="svg-separator sep4"
               viewBox="200 90 1200 110"
               data-height="200"

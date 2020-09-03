@@ -1,5 +1,4 @@
 import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { above, below } from '../utilities/breakpoints';
@@ -59,10 +58,6 @@ const SVGStyled = styled.svg`
 const MassageStyled = styled.span`
   display: inline-block;
   ${above.sm`
-    display: inline;
-    padding-left: 0rem;
-  `}
-  ${above.base`
     display: inline;
     padding-left: 0rem;
   `}
@@ -129,7 +124,8 @@ const Header = () => (
     <div>
       <HeaderText className="mb-0 tracking-wide">
         <Link className="text-white no-underline" to="/">
-          Amsterdam <span className="pl-4">Chiropractic</span>{' '}
+          Amsterdam <br />
+          <span className="pl-4">Chiropractic</span>{' '}
           <MassageStyled className="pl-8">& Massage</MassageStyled>
         </Link>
       </HeaderText>

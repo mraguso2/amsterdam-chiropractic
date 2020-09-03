@@ -19,7 +19,7 @@ const SpineHeroStyled = styled.div`
   /* background: radial-gradient(transparent, white);
   background: radial-gradient(circle, #ffc72714 5%, white); */
   /* background: radial-gradient(circle, #ffc72714, white 70%); */
-  background: radial-gradient(#fff6dd14, white 72%);
+  background: radial-gradient(rgba(255, 246, 221, 0.08), white 72%);
   padding-left: 1rem;
   padding-right: 1rem;
   ${above.sm`
@@ -31,13 +31,14 @@ const SpineHeroStyled = styled.div`
       padding-right: 0;
   `}
   h3 {
+    max-width: 550px;
     font-size: 1.3rem;
     text-align: center;
     font-family: 'Lora', serif;
     /* text-shadow: 1px 1px #c5edfb;
     text-shadow: 1px 1px #0041582e;
     color: #004159; */
-    text-shadow: 1px 1px #41494c6b;
+    text-shadow: 1px 1px rgba(65, 73, 76, 0.42);
     color: #36342f;
     ${above.sm`
       font-size: 1.7rem;

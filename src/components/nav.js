@@ -1,10 +1,8 @@
-import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
 import React, { useState, useEffect, useRef } from 'react';
 import styled, { css } from 'styled-components';
 import useWindowSize from '../hooks/useWindowSize';
 import useOnClickOutside from '../hooks/useOnOutsideClick';
-import { above, below } from '../utilities/breakpoints';
+import { above } from '../utilities/breakpoints';
 
 const NavStyled = styled.nav`
   background: #00533e;

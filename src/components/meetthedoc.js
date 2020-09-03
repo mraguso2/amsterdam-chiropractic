@@ -52,11 +52,17 @@ const DocGrouping = styled.div`
 const Meetthedoc = () => (
   <>
     <svg
-      style={{ width: '100%', fill: 'rgb(255, 246, 221)', transform: 'rotate(180deg)' }}
+      style={{
+        width: '100%',
+        fill: 'rgb(255, 246, 221)',
+        transform: 'rotate(180deg)',
+        marginBottom: '-1px'
+      }}
       // viewBox="0 0 510 80"
       viewBox="0 20 510 60"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      preserveAspectRatio="none"
     >
       <g clipPath="url(#clip0)">
         <path d="M0 22L510 22V80L0 22Z" fill="#ffc726" />
