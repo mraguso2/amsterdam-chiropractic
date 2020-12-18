@@ -141,7 +141,7 @@ const Services = () => (
         <div className="mb-4">
           <h3 className="font-light text-lg">Thai Massage</h3>
           <div className="w-56 m-auto">
-            <p>60 minutes.......................$80</p>
+            <p>60 minutes.......................$90</p>
             <p>90 minutes......................$120</p>
           </div>
         </div>
